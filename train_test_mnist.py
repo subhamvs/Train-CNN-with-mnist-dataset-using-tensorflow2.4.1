@@ -32,8 +32,8 @@ test_datagen  = ImageDataGenerator( rescale = 1.0/255. )
 # --------------------
 # Flow training images in batches of 16 using train_datagen generator
 # --------------------
-train_dir = "C:\\Users\\mcw\\Documents\\Tensorflow_Exploration\\session1 - classification with mnist - TF2.0\\mnist_png-master\\mnist_png.tar\\mnist_png\\training\\"
-test_dir = "C:\\Users\\mcw\\Documents\\Tensorflow_Exploration\\session1 - classification with mnist - TF2.0\\mnist_png-master\\mnist_png.tar\\mnist_png\\testing\\"
+train_dir = "<Path of mnist path>\\mnist_png\\training\\"
+test_dir = "<Path of mnist path>\\mnist_png\\testing\\"
 train_generator = train_datagen.flow_from_directory(train_dir,
                                                     batch_size=16,
                                                     class_mode='categorical',
