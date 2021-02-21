@@ -4,3 +4,4 @@
 2) Tensorflow 2.4.1
 
 **How to run the training and prediction:**
+python train_test_mnist.py
